@@ -1,4 +1,4 @@
-##Metropolis Hastings algorithm with Jump
+##Metropolis Hastings algorithm with Jumping
 
 MHRW<-function(G,b){
   s_0<- floor(runif(1,1,dim(A)[1]))
@@ -26,3 +26,4 @@ MHRW<-function(G,b){
   mhrw_graph<- induced_subgraph(g,mhrw_sample)
   return(mhrw_graph)
 }
+
