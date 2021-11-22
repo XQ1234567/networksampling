@@ -5,6 +5,7 @@ higgs.social_network <- read.table("~/networksampling/higgs-social_network.edgel
 ##g is the raw data read and reserved in Rstudio work space
 g<- graph.edgelist(as.matrix(higgs.social_network),directed=T)
 A<-as_adjacency_matrix(g)## adjacency matrix
+##Best sample size tested by experiments --15% of the whole agents. 
 b<- 62072
 
 ##MHRW
