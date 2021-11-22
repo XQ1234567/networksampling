@@ -1,3 +1,4 @@
+library(igraph)
 ##Dataset from https://snap.stanford.edu/data/higgs-twitter.html 
 ##follower network "higgs-social_network.edgelist"
 higgs.social_network <- read.table("~/networksampling/higgs-social_network.edgelist", 
